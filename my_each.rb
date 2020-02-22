@@ -1,5 +1,3 @@
-require "pry"
-
 def my_each(array1)
     if block_given?
       counter = 0 
