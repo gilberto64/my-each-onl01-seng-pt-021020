@@ -14,5 +14,5 @@ def my_each(array1)
 end
 
 my_each(Array) do |word| 
-  return "#{word}"
+  puts "This is the word #{word}"
 end
