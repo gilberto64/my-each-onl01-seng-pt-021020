@@ -11,6 +11,6 @@ def my_each(array)
     end
 end
 
-my_each (Array) do |word|
+my_each(Array) do |word|
   puts "This is #{word}"
 end
