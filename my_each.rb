@@ -4,7 +4,7 @@ def my_each(array1)
     if block_given?
       counter = 0 
       while counter < array1.length 
-        yield array1([counter])
+        yield array1(["Hi"])
         counter += 1 
       end
       array1
