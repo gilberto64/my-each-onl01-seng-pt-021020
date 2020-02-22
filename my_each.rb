@@ -9,8 +9,8 @@ def my_each(array1)
     else
       return "Hey! No block was given!"
     end
-  end
+end
 
-my_each(Array) do |word| 
+my_each(array1[i]) do |word| 
   puts "This is #{word}"
 end
