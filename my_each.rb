@@ -13,6 +13,6 @@ def my_each(array1)
     end
 end
 
-my_each(array1) do |word| 
+my_each(Array) do |word| 
   return "#{word}"
 end
