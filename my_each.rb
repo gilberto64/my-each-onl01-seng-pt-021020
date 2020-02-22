@@ -5,12 +5,12 @@ def my_each(array)
         yield array[i]
         i = i + 1
       end
-      array 
+    array
     else
-      return "Hey! No block was given!"
+      puts "Hey! No block was given!"
     end
 end
 
 my_each (Array) do |word|
-  "This is #{word}"
+  puts "This is #{word}"
 end
