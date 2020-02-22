@@ -7,6 +7,6 @@ def my_each(array)
   array
 end
 
-my_each(array) do |word|
+my_each(Array) do |word|
   puts "This is #{word}"
 end
