@@ -11,7 +11,6 @@ def my_each(array1)
     else
       return "Hey! No block was given!"
     end
-end
 
 my_each(array1 = (["a","b","c"]) do |word| 
   puts "This is #{word}"
